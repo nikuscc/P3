@@ -24,10 +24,22 @@ Ejercicios básicos
 	 NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
 	 hacerlo. Se valorará la utilización de la librería matplotlib de Python.
 
+    ![image](https://user-images.githubusercontent.com/92537816/143685646-4dfd0eff-d162-4186-bd46-c6e5e79b2daf.png)
+    Podem veure que el període de pitch és aproximadament 6ms, que és aprox. l'invers de la posició del màxim en l'autocorrelació. 
+    <img width="68" alt="2021-11-27" src="https://user-images.githubusercontent.com/92537816/143686131-6043852c-79db-4c3e-b2ba-85c9d35dfa29.png">
+    ![image](https://user-images.githubusercontent.com/92537816/143685738-18d64f87-d05f-4729-b603-30bb3abe5f9e.png)
+
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
+     
+    ![image](https://user-images.githubusercontent.com/92537816/143685795-a407fe32-98e6-4ede-bcca-27df1fb66ff4.png)
 
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
+   
+   Utilitzant 3 valors de threshold, un per l'energia, un altre per l'autocorrelació normalitzada, i un altre per l'autocorrelació en el màxim.
+   Com que les trames de sons sords tenen l'autocorrelació és molt diferent a la seva energia podem detectar-los fàcilment. També podem detectar trames de silenci ja que la seva energia és baixa i està per sota del threshold que hem marcat.
+   
+    ![image](https://user-images.githubusercontent.com/92537816/143685836-317d63c7-06da-4e16-a71f-11ff35a637d8.png)
 
 - Una vez completados los puntos anteriores, dispondrá de una primera versión del detector de pitch. El 
   resto del trabajo consiste, básicamente, en obtener las mejores prestaciones posibles con él.
