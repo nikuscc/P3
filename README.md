@@ -62,7 +62,7 @@ Ejercicios básicos
 	Podem veure (de dalt a baix): la forma d'ona, el nivell de potència de la senyal, r1norm i rmaxnorm.		
 
 	![image](https://user-images.githubusercontent.com/92537816/144092111-8d295d17-768c-4571-b6a4-9f58c14b8e68.png)
-	Aquí podem veure la nostra detecció de pitch a sobre, i la que fa wavesurfer a sota.
+	Aquí podem veure la nostra detecció de pitch a sobre (amb les millors prestacions aconseguides), i la que fa wavesurfer a sota.
 
       - Use el detector de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
