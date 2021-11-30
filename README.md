@@ -29,7 +29,8 @@ Ejercicios básicos
     Podem veure que el període de pitch és aproximadament 6ms, que és aprox. l'invers de la posició del màxim en l'autocorrelació.
     
     <img width="68" alt="2021-11-27" src="https://user-images.githubusercontent.com/92537816/143686131-6043852c-79db-4c3e-b2ba-85c9d35dfa29.png">
-    ![image](https://user-images.githubusercontent.com/92537816/143685738-18d64f87-d05f-4729-b603-30bb3abe5f9e.png)
+    
+    ![image](https://user-images.githubusercontent.com/92537816/144066736-f531fddb-0398-49b2-951e-9a7ca0720c8f.png)
 
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
