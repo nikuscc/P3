@@ -26,7 +26,8 @@ Ejercicios básicos
 
     ![image](https://user-images.githubusercontent.com/92537816/143685646-4dfd0eff-d162-4186-bd46-c6e5e79b2daf.png)
     
-    Podem veure que el període de pitch és aproximadament 6ms, que és aprox. l'invers de la posició del màxim en l'autocorrelació. 
+    Podem veure que el període de pitch és aproximadament 6ms, que és aprox. l'invers de la posició del màxim en l'autocorrelació.
+    
     <img width="68" alt="2021-11-27" src="https://user-images.githubusercontent.com/92537816/143686131-6043852c-79db-4c3e-b2ba-85c9d35dfa29.png">
     ![image](https://user-images.githubusercontent.com/92537816/143685738-18d64f87-d05f-4729-b603-30bb3abe5f9e.png)
 
