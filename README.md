@@ -97,9 +97,14 @@ Ejercicios de ampliación
   Entre las posibles mejoras, puede escoger una o más de las siguientes:
 
   * Técnicas de preprocesado: filtrado paso bajo, *center clipping*, etc.
+  
+  ![image](https://user-images.githubusercontent.com/92537816/144077286-ff0149f9-229c-4414-a02c-7e960cb66855.png)
+  ![image](https://user-images.githubusercontent.com/92537816/144077494-296f7ae6-f596-46a4-ba66-d87be46dc0e1.png)
+
   * Técnicas de postprocesado: filtro de mediana, *dynamic time warping*, etc.
-  * Métodos alternativos a la autocorrelación: procesado cepstral, *average magnitude difference function*
-    (AMDF), etc.
+  
+  ![image](https://user-images.githubusercontent.com/92537816/144077631-d6b78042-e02b-4eb2-aa78-f34581624b61.png)
+
   * Optimización **demostrable** de los parámetros que gobiernan el detector, en concreto, de los que
     gobiernan la decisión sonoro/sordo.
   * Cualquier otra técnica que se le pueda ocurrir o encuentre en la literatura.
