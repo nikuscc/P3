@@ -107,6 +107,9 @@ Ejercicios de ampliación
 
   * Optimización **demostrable** de los parámetros que gobiernan el detector, en concreto, de los que
     gobiernan la decisión sonoro/sordo.
+    
+  ![image](https://user-images.githubusercontent.com/92537816/144079898-961f5607-21d6-4502-a662-3557ee49f0f8.png)
+
   * Cualquier otra técnica que se le pueda ocurrir o encuentre en la literatura.
 
   Encontrará más información acerca de estas técnicas en las [Transparencias del Curso](https://atenea.upc.edu/pluginfile.php/2908770/mod_resource/content/3/2b_PS%20Techniques.pdf)
