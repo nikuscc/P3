@@ -67,11 +67,14 @@ Ejercicios básicos
   * Optimice los parámetros de su sistema de detección de pitch e inserte una tabla con las tasas de error
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
+	
+	![image](https://user-images.githubusercontent.com/92537816/144068625-ceec9a4d-694b-42c6-b885-ab5f0977d908.png)
 
    * Inserte una gráfica en la que se vea con claridad el resultado de su detector de pitch junto al del
      detector de Wavesurfer. Aunque puede usarse Wavesurfer para obtener la representación, se valorará
 	 el uso de alternativas de mayor calidad (particularmente Python).
-   
+   	
+	![image](https://user-images.githubusercontent.com/92537816/144068860-582dd19c-9bde-40c0-a47a-fec567f80941.png)
 
 Ejercicios de ampliación
 ------------------------
