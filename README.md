@@ -55,6 +55,9 @@ Ejercicios básicos
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
 		
+	Creant un .out, podem separar les columnes per extreure els nostres paràmetres amb la següent ordre:
+	![image](https://user-images.githubusercontent.com/92537816/144089997-14125780-20f8-42e0-b1c9-58217fc297af.png)
+
 	![image](https://user-images.githubusercontent.com/92537816/144089248-e9f07c9b-dd7b-47a5-9137-426781c9be8b.png)
 	Podem veure (de dalt a baix): la forma d'ona, el nivell de potència de la senyal, r1norm i rmaxnorm.		
 
