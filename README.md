@@ -54,11 +54,10 @@ Ejercicios básicos
 	    principales candidatos para determinar la sonoridad de la voz: el nivel de potencia de la señal
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
+		
+	![image](https://user-images.githubusercontent.com/92537816/144089248-e9f07c9b-dd7b-47a5-9137-426781c9be8b.png)
+	Podem veure (de dalt a baix): la forma d'ona, el nivell de potència de la senyal, r1norm i rmaxnorm.		
 
-		Puede considerar, también, la conveniencia de usar la tasa de cruces por cero.
-
-	    Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
-		en esta práctica es de 15 ms.
 
       - Use el detector de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
