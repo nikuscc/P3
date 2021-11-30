@@ -27,7 +27,7 @@ Ejercicios básicos
     ![image](https://user-images.githubusercontent.com/92537816/143685646-4dfd0eff-d162-4186-bd46-c6e5e79b2daf.png)
     
     Podem veure que el període de pitch és aproximadament 6ms, que és aprox. l'invers de la posició del màxim en l'autocorrelació.
-    
+        
     <img width="68" alt="2021-11-27" src="https://user-images.githubusercontent.com/92537816/143686131-6043852c-79db-4c3e-b2ba-85c9d35dfa29.png">
     
     ![image](https://user-images.githubusercontent.com/92537816/144066736-f531fddb-0398-49b2-951e-9a7ca0720c8f.png)
@@ -68,6 +68,8 @@ Ejercicios básicos
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
 	
+	Amb paràmetres optimitzats i sense pre ni postprocessat, el nostre sistema de detecció de Pitch té una puntuació de 90.86%
+	
 	![image](https://user-images.githubusercontent.com/92537816/144068625-ceec9a4d-694b-42c6-b885-ab5f0977d908.png)
 
    * Inserte una gráfica en la que se vea con claridad el resultado de su detector de pitch junto al del
@@ -89,6 +91,7 @@ Ejercicios de ampliación
   * Inserte un *pantallazo* en el que se vea el mensaje de ayuda del programa y un ejemplo de utilización
     con los argumentos añadidos.
     
+    Incorporem els paràmetres que gobernen la decisió voiced/unvoiced. 
     ![image](https://user-images.githubusercontent.com/92537816/144070289-31e17f80-f93d-4809-b29a-61e0d7051502.png)
 
 - Implemente las técnicas que considere oportunas para optimizar las prestaciones del sistema de detección
@@ -98,6 +101,7 @@ Ejercicios de ampliación
 
   * Técnicas de preprocesado: filtrado paso bajo, *center clipping*, etc.
   
+  Implementem center-clipping sense offest i filtre pas baix amb freqüència de tall de 2kHz
   ![image](https://user-images.githubusercontent.com/92537816/144077286-ff0149f9-229c-4414-a02c-7e960cb66855.png)
   ![image](https://user-images.githubusercontent.com/92537816/144077494-296f7ae6-f596-46a4-ba66-d87be46dc0e1.png)
 
@@ -107,9 +111,6 @@ Ejercicios de ampliación
 
   * Optimización **demostrable** de los parámetros que gobiernan el detector, en concreto, de los que
     gobiernan la decisión sonoro/sordo.
-    
-  ![image](https://user-images.githubusercontent.com/92537816/144079898-961f5607-21d6-4502-a662-3557ee49f0f8.png)
-
   * Cualquier otra técnica que se le pueda ocurrir o encuentre en la literatura.
 
   Encontrará más información acerca de estas técnicas en las [Transparencias del Curso](https://atenea.upc.edu/pluginfile.php/2908770/mod_resource/content/3/2b_PS%20Techniques.pdf)
