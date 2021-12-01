@@ -26,9 +26,9 @@ Usage:
     get_pitch (-h | --help)
     get_pitch --version
 Options:
-    -p FLOAT, --potvalue=FLOAT    Power threshold value [default: -50]
-    -r FLOAT, --r1norm=FLOAT      Autocorrelation in 1 normalized threshold value [default: 0.80]
-    -m FLOAT, --rmaxnorm=FLOAT    Autocorrelation on lag normalized threshold value [default: 0.30]
+    -p FLOAT, --potvalue=FLOAT    Power threshold value [default: -49]
+    -r FLOAT, --r1norm=FLOAT      Autocorrelation in 1 normalized threshold value [default: 0.84]
+    -m FLOAT, --rmaxnorm=FLOAT    Autocorrelation on lag normalized threshold value [default: 0.29]
     -h, --help  Show this screen
     --version   Show the version of the project
 Arguments:
