@@ -105,7 +105,7 @@ Ejercicios de ampliación
 
   * Técnicas de preprocesado: filtrado paso bajo, *center clipping*, etc.
   
-  Implementem center-clipping sense offest i filtre pas baix amb freqüència de tall de 2kHz
+  Implementem center-clipping sense offset i filtre pas baix amb freqüència de tall de 2kHz
   ![image](https://user-images.githubusercontent.com/92537816/144077286-ff0149f9-229c-4414-a02c-7e960cb66855.png)
   ![image](https://user-images.githubusercontent.com/92537816/144077494-296f7ae6-f596-46a4-ba66-d87be46dc0e1.png)
 
